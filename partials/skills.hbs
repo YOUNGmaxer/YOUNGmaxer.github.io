@@ -1,0 +1,30 @@
+{{#if resume.skills.length}}
+<section id="skills" class="flex flex-wrap border-t border-dashed border-gray-500 mt-2 pt-2">
+	<h2 class="text-lg font-bold w-full pb-2 {{#lang 'zh'}}md:w-16 md:pb-0 print:w-16 print:pb-0{{/lang}}">
+		{{i18n 'skills'}}</h2>
+	<ul class="wrap">
+		{{#each resume.skills}}
+		<li class="item">
+			{{#if name}}
+			<span>· </span>
+			<span class="">
+				{{name}}
+			</span>
+			{{/if}}
+			{{#if level}}
+			<em class="text-gray-500">{{level}}</em>
+			{{/if}}
+			{{#if keywords.length}}
+			<div class="block md:inline-block print:inline-block">
+			{{#each keywords}}
+			<span class="text-gray-500">
+				{{.}}{{#unless @last}}, {{/unless}}
+			</span>
+			{{/each}}
+			</div>
+			{{/if}}
+		</li>
+		{{/each}}
+	</ul>
+</section>
+{{/if}}

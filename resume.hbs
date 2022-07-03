@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>{{#resume.basics}}{{name}}{{/resume.basics}}</title>
+
+	<style>
+	{{{css}}}
+	</style>
+	
+	</head>
+	<body class="text-gray-900 antialiased bg-gray-100 font-serif md:py-16 print:py-0">
+		<main class="max-w-3xl mx-auto bg-white px-3 py-6 md:px-10 md:py-16 md:shadow text-sm print:p-0 print:text-xs print:shadow-none">
+		{{> basics }}
+		{{> education }}
+		{{> work }}
+		{{> projects}}
+		{{> volunteer }}
+		{{> awards }}
+		{{> publications }}
+		{{> skills }}
+		{{> languages }}
+		{{> interests }}
+		{{> references }}
+		{{> summary }}
+		</main>
+	</body>
+</html>

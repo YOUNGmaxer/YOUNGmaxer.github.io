@@ -1,0 +1,24 @@
+{
+  "name": "jsonresume-theme-apage",
+  "version": "1.0.2",
+  "description": "Printable theme for JSON Resume",
+  "keywords": [
+    "jsonresume-theme",
+    "jsonresume",
+    "resume-cli"
+  ],
+  "author": "ricosmall",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ricosmall/jsonresume-theme-apage"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.3.0",
+    "just-handlebars-helpers": "^1.0.18"
+  },
+  "bugs": {
+    "url": "https://github.com/ricosmall/jsonresume-theme-apage/issues"
+  },
+  "homepage": "https://github.com/ricosmal/jsonresume-theme-apage"
+}

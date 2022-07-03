@@ -1,0 +1,51 @@
+{{#if resume.volunteer.length}}
+<section id="volunteer" class="flex flex-wrap border-t border-dashed border-gray-500 mt-2 pt-2">
+	<h2 class="text-lg font-bold w-full pb-2 {{#lang 'zh'}}md:w-16 md:pb-0 print:w-16 print:pb-0{{/lang}}">{{i18n 'volunteer'}}<span
+			class="md:block print:block">{{i18n 'volunteerSub'}}</span></h2>
+	<div class="wrap">
+		{{#each resume.volunteer}}
+		<div class="item">
+			<div class="{{#unless @first}}mt-2{{/unless}} font-bold">
+				<span class="inline-block w-full md:w-48 print:w-48">
+					{{#if startDate}}
+					{{startDate}}
+					{{/if}}
+					{{#if endDate}}
+					- {{endDate}}
+					{{else}}
+					- {{i18n 'present'}}
+					{{/if}}
+				</span>
+				{{#if organization}}
+				<span class="inline-block w-full md:w-64 print:w-64">
+					{{organization}}
+				</span>
+				{{/if}}
+				{{#if position}}
+				<span class="inline-block">
+					{{position}}
+				</span>
+				{{/if}}
+			</div>
+			{{#if summary}}
+			<div class="mt-1 text-gray-500">
+				<span>{{summary}}</span>
+				{{#if website}}
+				<span class="ml-2 hover:text-blue-500 hover:underline">
+					<a href="{{website}}">{{website}}</a>
+				</span>
+				{{/if}}
+			</div>
+			{{/if}}
+			{{#if highlights.length}}
+			<ul class="mt-1">
+				{{#each highlights}}
+				<li>- {{.}}</li>
+				{{/each}}
+			</ul>
+			{{/if}}
+		</div>
+		{{/each}}
+	</div>
+</section>
+{{/if}}
