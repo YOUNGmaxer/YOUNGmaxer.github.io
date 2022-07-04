@@ -1,7 +1,6 @@
 node_modules/
 npm-debug.log
 resume.pdf
-resume.json
 resume.yaml
 .DS_Store
 public/
