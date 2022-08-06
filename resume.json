@@ -49,7 +49,7 @@
   ],
   "skills": [
     {
-      "name": "熟悉 Node 开发，具备搭建和优化 Node 服务的能力"
+      "name": "熟悉 Node 开发"
     },
     {
       "name": "熟悉 Hippy（类 RN）跨端开发"
@@ -58,7 +58,7 @@
       "name": "熟练使用 TypeScript、Vue、React 开发"
     },
     {
-      "name": "其他了解的技术栈：Nginx、Go、Java、Python"
+      "name": "其他了解的技术栈：Nginx、Go、Java"
     }
   ],
   "projects": [
