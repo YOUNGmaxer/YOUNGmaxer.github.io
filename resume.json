@@ -17,7 +17,7 @@
       "company": "腾讯",
       "position": "前端工程师",
       "startDate": "2020-04",
-      "endDate": "至今",
+      "endDate": "2022-08",
       "summary": "参与 QQ 浏览器小说核心业务开发，包括小说阅读器、频道、书架、福利、社区等。",
       "highlights": [
         "负责多个小说业务项目，包括大部分 Node 服务（接入服务和直出服务）、小说书架、个人中心等",
@@ -58,14 +58,14 @@
       "name": "熟练使用 TypeScript、Vue、React 开发"
     },
     {
-      "name": "其他了解的技术栈：Nginx、Go、Rust、Java"
+      "name": "其他了解的技术栈：Nginx、Go、Rust"
     }
   ],
   "projects": [
     {
       "name": "小说书架",
       "startDate": "2021-11",
-      "endDate": "",
+      "endDate": "2022-08",
       "description": "小说主要场景之一，提供书籍筛选、导入、分组、删除等管理功能。",
       "summary": "TS，Hippy-React，Rematch",
       "highlights": [
@@ -77,7 +77,7 @@
     {
       "name": "小说前端接入服务",
       "startDate": "2020-04",
-      "endDate": "",
+      "endDate": "2022-08",
       "description": "主要负责聚合后台基础服务接口，将数据灵活转换和划分成前端视图理解的形式。",
       "summary": "TS，Egg，Go",
       "highlights": [
@@ -125,8 +125,7 @@
   ],
   "summary": [
     "有代码洁癖和强迫症，重视代码质量",
-    "注重代码设计和优化，追求最佳实践",
-    "乐于探索，勇于尝鲜"
+    "注重代码设计和优化，追求最佳实践"
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
