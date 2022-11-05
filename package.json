@@ -8,6 +8,9 @@
     "resume-cli"
   ],
   "author": "ricosmall",
+  "scripts": {
+    "build": "resume export resume.html -t ."
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ricosmall/jsonresume-theme-apage"

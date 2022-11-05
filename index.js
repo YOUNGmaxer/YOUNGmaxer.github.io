@@ -4,7 +4,7 @@ var Handlebars = require("handlebars");
 const H = require('just-handlebars-helpers');
 
 var i18n = require('./i18n.js');
-var lang = process.env.LANG.slice(0, 2) || 'zh';
+var lang = 'zh';
 
 Handlebars.registerHelper('i18n', function (key) {
 	return i18n[lang][key] || ''
