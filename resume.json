@@ -69,12 +69,13 @@
   ],
   "projects": [
     {
-      "name": "富途券商开户流程",
+      "name": "富途海外券商开户业务",
       "startDate": "2022-12",
       "endDate": "至今",
-      "description": "提供用户开户流程表单填写和校验流程，提供客服审核开户管理系统",
+      "description": "提供用户开户流程表单填写和校验，提供客服审核开户管理系统",
       "summary": "Vue3，TS，Egg",
       "highlights": [
+        ""
       ]
     },
     {
