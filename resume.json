@@ -124,7 +124,7 @@
     }
   ],
   "summary": [
-    "注重代码设计和优化，追求最佳实践"
+    "注重代码设计和可维护性"
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
