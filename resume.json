@@ -60,7 +60,7 @@
   ],
   "skills": [
     {
-      "name": "熟悉 TypeScript、Node、Vue、React 开发"
+      "name": "TypeScript、Node、Vue、React"
     }
   ],
   "projects": [
@@ -81,7 +81,7 @@
       "startDate": "2021-11",
       "endDate": "2022-08",
       "description": "小说主要场景之一，提供书籍筛选、导入、分组、删除、置顶等管理功能。",
-      "summary": "TS，React",
+      "summary": "TS，React Native",
       "highlights": [
         "通过一些设计模式和原则，抽象设计和管理书架中 8 种不同类型实体，使代码可扩展可维护",
         "借鉴插件思想设计动态插入第三方实体到书架的能力，实现动态插入广告等功能"
@@ -102,7 +102,7 @@
       "name": "小说阅读器",
       "startDate": "2020-04",
       "endDate": "2021-04",
-      "summary": "TS，React",
+      "summary": "TS，React Native",
       "description": "小说主要场景之一，提供小说阅读、广告、评论等功能。",
       "highlights": [
         "参与首屏性能优化，通过预加载、首屏缓存优化、接口合并等策略，提升首屏性能超过 50%"
